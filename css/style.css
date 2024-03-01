@@ -138,10 +138,25 @@ h4 {
     width: auto;
 }
 
-.video {
-    width: 50vw;
-    height: 60vh;
-}
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+   .embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    padding: 0 5%;
+   }
+   
 
 @font-face {
     font-family: 'Xilosa';
@@ -149,6 +164,10 @@ h4 {
 }
 
 @media (max-width: 450px) {
-    .menu {display: none;}
-    h1 {font-size: 1em;}
+    nav span {
+        display: none;
+    }
+    h1 {
+        font-size: 1em;
+    }
 }
