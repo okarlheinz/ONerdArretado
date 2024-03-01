@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #444;
+    height: 100%;
+    min-width: 100px
+}
+
+.pagina {
+    width: auto;
+}
+
+html {
+    height: 100%;
+}
+
+h1 {
+    padding-top: 100px;
+    font-family: 'Xilosa', 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: black;
+}
+
+h1, h5 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+div {
+    /* margin-top: 100px; */
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+p {
+    font-size: 20px;
+    padding: 5px;
+    width: 800px;
+    text-align: justify;
+    margin: auto;
+}
+
+iframe {
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    clear: both;
+}
+
+img {
+    width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    clear: both;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'Xilosa';
+    src: url('../font/xilosa_.ttf') format('truetype');
+}
+
+nav {
+    font-family: 'Xilosa', 'Times New Roman', Times, serif;
+    background-color: rgb(253, 242, 217);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+}
+
+#logo {
+    position: absolute;
+    height: auto;
+    width: 100px;
+    padding: 10px;
+    top: 0;
+    left: 0;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+    transition: 600ms;
+}
+
+nav span {
+    padding: 17px 10px;
+    color: rgb(165, 107, 0);
+    font-size: 30px;
+}
+
+nav span:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 225, 148);
+    /* transform: scale(1.2);
+    transition: 100ms linear;
+    border-radius: 3px; */
+}
+
+.waImg {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: auto;
+}
+
+/* @media (min-width: 200px) {
+    .menu {
+        display: none;
+    }
+} */
