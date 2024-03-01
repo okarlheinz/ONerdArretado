@@ -3,16 +3,26 @@
     padding: 0;
 }
 
-
 body {
     background-color: #444;
     height: 100%;
-    min-width: 100px
+    min-width: 100px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .pagina {
     width: 80vw;
+    margin: 100px;
+    display: inline-block;
     box-sizing: content-box;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 html {
@@ -34,17 +44,17 @@ h1, h5 {
 
 div {
     /* margin-top: 100px; */
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0);
     background-color: #fff;
     margin-left: auto;
     margin-right: auto;
-    width: 900px;
+    width: 900px; */
 }
 
 p {
-    font-size: 20px;
+    font-size: 1em;
     padding: 5px;
-    width: 800px;
+    width: 70vw;
     text-align: justify;
     margin: auto;
 }
@@ -57,17 +67,12 @@ iframe {
 }
 
 img {
-    width: 800px;
+    width: 70vw;
     margin-left:auto;
     margin-right:auto;
     display: block;
     clear: both;
     padding: 20px;
-}
-
-@font-face {
-    font-family: 'Xilosa';
-    src: url('../font/xilosa_.ttf') format('truetype');
 }
 
 nav {
@@ -120,8 +125,39 @@ nav span:hover {
     width: auto;
 }
 
+div.cards {
+    float: left;
+    border-radius: 15px;
+    background-color: aquamarine;
+    margin: 10px;
+    height: 200px;
+    width: 140px;
+}
+
+div.lista-cards {
+    background-color: bisque;
+    margin: 15px;
+    
+}
+
+h4 {
+    background-color: thistle;
+    margin: 0;
+    padding: 15px;
+    width: auto;
+}
+
+.video {
+    width: 50vw;
+    height: 60vh;
+}
+
+@font-face {
+    font-family: 'Xilosa';
+    src: url('../font/xilosa_.ttf') format('truetype');
+}
+
 @media (max-width: 450px) {
-    .menu {
-        display: none;
-    }
+    .menu {display: none;}
+    h1 {font-size: 1em;}
 }
