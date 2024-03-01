@@ -11,7 +11,8 @@ body {
 }
 
 .pagina {
-    width: auto;
+    width: 80vw;
+    box-sizing: content-box;
 }
 
 html {
@@ -100,7 +101,7 @@ nav {
 nav span {
     padding: 17px 10px;
     color: rgb(165, 107, 0);
-    font-size: 30px;
+    font-size: 2em;
 }
 
 nav span:hover {
@@ -119,8 +120,8 @@ nav span:hover {
     width: auto;
 }
 
-/* @media (min-width: 200px) {
+@media (max-width: 450px) {
     .menu {
         display: none;
     }
-} */
+}
